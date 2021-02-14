@@ -16,11 +16,10 @@
 #### 이중 버퍼(Double Buffer)
 ##### 응용 프로그램이 단일 버퍼를 그릴 때 결과 이미지에 깜빡임 문제가 발생함. 결과 출력 영상이 한순간에 그려지는 것이 아니라 픽셀 단위로 그려지고 보통 왼쪽에서 오른쪽, 위에서 아래로 그려지기 때문인데, 버퍼를 두개를 만들어서 전면 버퍼에는 최종 출력물을, 후면 버퍼에는 렌더링 명령을 담당하여 렌더링 명령이 끝나면 후면 버퍼와 전면 버퍼를 스왑하여 표시함으로써, 깜빡임 문제를 해결함.
 
-
-출처: https://satisfactoryplace.tistory.com/18 [만족]
-
 #### 참고 자료
 
 ##### [나무위키 Open GL](https://namu.wiki/w/OpenGL)
 ##### [LearnOpenGL](https://learnopengl.com/Getting-started/OpenGL)
 ##### [OpenGL Tutorial by Michael Grieco](https://www.youtube.com/watch?v=_POT8K638VY&list=PLysLvOneEETPlOI_PI4mJnocqIpr2cSHS)
+
+##### [이중 버퍼](https://satisfactoryplace.tistory.com/18)
